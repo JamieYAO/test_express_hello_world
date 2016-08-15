@@ -1,8 +1,8 @@
 #EXPRESS HELLO WORLD EXAMPLE
 *  Must be installed node and npm and git<br />
-node official site：https://nodejs.org/en/ <br />
-git official site: https://git-scm.com/ <br /><br />
-*  You can clone my repository<br />
+  node official site：https://nodejs.org/en/ <br />
+  git official site: https://git-scm.com/ <br /><br />
+*  You can clone my repository with Terminal or CMD<br />
   <code>$ git clone https://github.com/JamieYAO/test_express_hello_world.git</code> <br /> <br />
   <code>$ cd test_express_hello_world</code><br /><br />
   <code>$ npm install</code><br /><br />
