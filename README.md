@@ -8,7 +8,9 @@
   <code>$ npm install</code><br /><br />
   <code>$ node app.js //start node server</code>
 
-  And then you will see that：<br /><br />
-  <code>Example app listening on port 3000!</code><br /><br />
-  Open the bowser and go to：localhost:3000<br /><br />
-  You can see "Hello World!" on the web site.
+  And then you will see that：<code>Example app listening on port 3000!</code><br /><br />
+  Open the bowser and go to：localhost:3000<br />
+  You can see "Hello World!" on the web site.<br />
+
+  If you see this : <code> Error: listen EADDRINUSE :::3000</code><br />
+  that must be the 3000 port has been used, you can change the port to 3001 in the app.js file.<br />
