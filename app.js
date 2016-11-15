@@ -10,19 +10,23 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.get('/v1/test-api', function (req, res) {
+var appRouter = express.Router();
+
+appRouter.get('/v1/test-api', function (req, res) {
   res.send({ ret: 1000 });
 });
 
-app.get('/res/:id', function (req, res) {
+appRouter.get('/res/:id', function (req, res) {
   var id = req.params.id;
   var query_id = req.query.id;
   res.send(id);
 });
 
-app.get('/home', function (req, res) {
+appRouter.get('/home', function (req, res) {
   res.render('home', { title: 'Hey', message: 'Hello there!'});
 });
+
+app.use('/base', appRouter);
 
 app.listen(3000, function () {
   console.log('Example app listening on port 3000!');

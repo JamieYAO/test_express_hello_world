@@ -11,6 +11,7 @@
   And then you will see that：<code>Example app listening on port 3000!</code><br /><br />
   Open the bowser and go to：localhost:3000<br />
   You can see "Hello World!" on the web site.<br />
+  And input: localhost:3000/base/home.<br />
 
   If you see this : <code> Error: listen EADDRINUSE :::3000</code><br />
   that must be the 3000 port has been used, you can change the port to 3001 in the app.js file.<br />
